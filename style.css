@@ -1,0 +1,41 @@
+body {
+  background-color: #ffd369;
+}
+
+hr {
+  border-color: #fff1cf;
+  border-style: dotted none none none;
+  border-width: 5px;
+  width: 30%;
+}
+
+h1, h2, h3 {
+  color: #263f44;
+}
+
+p, td, li, label {
+  color: #015668;
+}
+
+th, a:visited {
+  color: #263f44;
+}
+
+a:link {
+  color: #fff1cf;
+}
+
+input[type=text], input[type=email] {
+  border: none;
+  border-bottom: 2px solid white;
+}
+
+input[type=text]:focus, input[type=email]:focus {
+  border-color: #263f44;
+  border-style: solid;
+}
+
+textarea {
+  border: 2px solid white;
+  border-radius: 4px;
+}
